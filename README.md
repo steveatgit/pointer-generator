@@ -1,3 +1,13 @@
+reference：https://github.com/abisee/pointer-generator
+
+modify：use pre-trained word2vec model
+
+command： python run_summarization.py --mode=train --data_path=data/chunked/train* --vocab_path=data/vocab --log_root=log_root --exp_name=focus_cont_v1 --emb_pretrained=data/embedding --emb_dim=100 --max_dec_steps=20 --min_dec_steps=2 --vocab_size=350000
+
+data：baidu cloud/资料/data/pointer-generator/data.
+
+pre-trained model: baidu cloud/资料/data/pointer-generator/log_root.
+
 This repository contains code for the ACL 2017 paper *[Get To The Point: Summarization with Pointer-Generator Networks](https://arxiv.org/abs/1704.04368)*. 
 
 ## Looking for test set output?
